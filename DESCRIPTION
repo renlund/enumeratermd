@@ -1,0 +1,11 @@
+Package: enumeratermd
+Type: Package
+Title: Enumerate RMarkdown Tables and Figures
+Version: 0.0.0.9000
+Author: Henrik Renlund
+Maintainer: Henrik Renlund <henrikrenlund@gmail.com>
+Description: Functions to help enumerate tables and figures in RMarkdown (rmd) files.
+License: GPL-3
+Imports:
+    knitr
+LazyData: TRUE
