@@ -19,7 +19,7 @@
 
 hook_tab.cap = function(before, options, envir){
     caption <- options$tab.cap
-    if(!before) paste("Table: ", caption)
+    if(!before) paste("\n\nTable: ", caption)
 }
 
 # '
