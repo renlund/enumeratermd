@@ -8,9 +8,7 @@
 #'
 #' @details the function hook_tab.cap is set as a hook in \pkg{knitr} when
 #'   \pkg{enumeratermd} is attached (and removed when \pkg{enumeratermd} is
-#'   detached). It writes a Pandoc identifier tag directly above a code chunk in
-#'   the form \code{[chunk-<chunk-label>]} where \code{<chunk-label>} is the
-#'   chunk label contained in \code{opts_current$get('label')}.
+#'   detached).
 #'
 #' @references \url{http://yihui.name/knitr/hooks#chunk_hooks}
 #'
